@@ -1,4 +1,4 @@
-# Barge-Object-Detection
+# Barge Object Detection
 A model trained on YOLOv5 to detect and label objects on a barge or in a shipyard. It is meant to be installed on and run on a Nvidia Jetson Orin Nano
 
 ## How it works
