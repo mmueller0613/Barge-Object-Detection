@@ -1,0 +1,20 @@
+train: /home/nvidia-07/FinalProject/bargedetectionv3/train/images
+val:   /home/nvidia-07/FinalProject/bargedetectionv3/valid/images
+test:  /home/nvidia-07/FinalProject/bargedetectionv3/test/images
+
+nc: 14
+names:
+  - Anchor
+  - Boat
+  - Chair
+  - Container
+  - Crane
+  - Generator
+  - Inside of Container
+  - Laptop
+  - Mattresses
+  - Monitor
+  - Pelican Case
+  - Person
+  - Trencher
+  - Winch
