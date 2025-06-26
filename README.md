@@ -25,7 +25,8 @@ Download the following files and extract them into a new folder:
 git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
 pip install -r requirements.txt
-pip install torch torchvision torchaudio
+pip install torch
+pip install torchvision
 ```
 **3. Prepare the Project Folder**
 
@@ -33,13 +34,11 @@ Create a folder called bargedetection in your home directory:
 ```
 mkdir ~/bargedetection
 ```
-Move your model and config files into that folder:
-```
-mv bargedetectionv3.pt ~/bargedetection/
-mv data.yaml ~/bargedetection/
-```
+Drag your model and config files into that folder
+
 Create a folder to hold your input images:
 ```
+cd bargedetection
 mkdir ~/bargedetection/images
 ```
 Place the images you want to run the model on into the images/ folder.
