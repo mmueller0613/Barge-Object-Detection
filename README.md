@@ -14,7 +14,7 @@ This project uses a YOLOv5 object detection model trained to find different obje
 ## Instructions
 **1. Download Model and Config Files**
 
-Download the following files and place them in a new folder:
+Download the following files and extract them into a new folder:
 
     bargedetectionv3.pt
 
